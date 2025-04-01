@@ -1,0 +1,31 @@
+{
+  "name": "track-fit",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host ",
+    "start": "nodemon ./src/server/server.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.14",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "pinia": "^3.0.1",
+    "tailwindcss": "^4.0.14",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^26.0.0",
+    "nodemon": "^3.1.9",
+    "vite": "^6.2.1",
+    "vite-plugin-vue-devtools": "^7.7.2",
+    "vitest": "^3.0.8"
+  }
+}
